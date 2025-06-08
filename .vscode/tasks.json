@@ -1,0 +1,12 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "Instalar dependencias del chatbot",
+			"command": "pip install pandas chatterbot chatterbot_corpus streamlit openpyxl",
+			"group": "build",
+			"problemMatcher": []
+		}
+	]
+}
